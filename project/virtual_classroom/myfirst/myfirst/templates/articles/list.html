@@ -2,5 +2,11 @@
 
 {% block title%}Последние статьи{% endblock %}
 {% block context %}
-     что-то...
+     {% if latest_article_list %}
+         {% for a in latest_articles_list %}
+             <a href='#'>{{a.article_title}}</a>>
+         {% endfor %}
+     {% else %}
+           Статьи не найдены...
+     {% endif %}
 {% endblock %}
