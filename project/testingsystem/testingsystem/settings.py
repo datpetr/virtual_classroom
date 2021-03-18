@@ -37,7 +37,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'registration.apps.RegistrationConfig',
-    'crispy_forms',
+    'teacher.apps.TeacherConfig',
     'grappelli',
     'django.contrib.admin',
     'django.contrib.auth',
