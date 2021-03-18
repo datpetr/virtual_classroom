@@ -1,0 +1,86 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  
+  margin: 0;
+  padding: 0;
+  
+  background-color: #FBFBFB;
+}
+
+header {
+  font-weight: 600;
+  color: lightblue;
+  
+  background-color: #000055;
+  
+  position: sticky;
+  top: 0;
+  
+  padding: 10px;
+}
+
+#logo {
+  font-weight: bold;
+  
+  margin-right: 10px;
+  margin-left: 10px;
+  
+  cursor: pointer;
+}
+
+#page_name {
+  text-align: center;
+  color: #EEEEEE;
+}
+
+#teacher_name_box {
+  font-weight: 600;
+  text-align: center;
+  
+  margin: 10px;
+  padding: 10px;
+  
+  width: 100%;
+}
+
+.block {
+  background-color: lightblue;
+  
+  margin-bottom: 5px;
+  padding: 10px;
+  
+  box-sizing: border-box;
+  
+  font-size: 15px;
+  text-align: left;
+  
+  cursor: pointer;
+}
+
+button {
+  border-style: none;
+  
+  font-weight: 600;
+  
+  padding: 5px;
+  
+  cursor: pointer;
+}
+
+
+.test_name {
+  font-weight: 600;
+}
+
+.delete_test {
+  float: right;
+}
+
+#add_test_button {
+  margin-bottom: 10px;
+  font-weight: 600;
+  
+  width: 100%;
+}
