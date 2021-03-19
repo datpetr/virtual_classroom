@@ -1,43 +1,66 @@
 <!DOCTYPE html>
+
 <head>
 
-  <title>AST: Кабинет учителя</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel = "stylesheet" href = "base.css">
-  
+    <title>AST: Кабинет учителя</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="base.css">
+
 </head>
 
 <body>
 
-  <header>
-    <span id = "logo" >AST</span>
-    <span id = "page_name">Редактирование теста</span>
-  </header>
-  
-  <div id = "question_name_box">
-    <input class = "question_name" type="text" size="60" placeholder = "Название теста">
-  </div>
-  
-  <div class = "block" id = "add_question_button">Добавить вопрос</div>
-  
-  <div class = "block question_link_div">
-  
-    <span class = "question_name">Вопрос 1</span>
-    <button class = "delete_question">Удалить</button>
-    
-  </div>
-  
-  <div class = "block question_link_div">
-  
-    <span class = "question_name">Вопрос 2</span>
-    <button class = "delete_question">Удалить</button>
-    
-  </div>
-  
-  <outer>
-    <button id = "back_button">Назад</button>
-    <button id = "save_button">Сохранить</button>
-  </outer>
-  
+    <header>
+        <span id="logo">AST</span>
+        <span id="page_name">Редактирование теста</span>
+    </header>
+
+    <div id="test_box" class="box">
+        <div id="question_name_box">
+            <input class="question_name" type="text" size="60" placeholder="Название теста">
+        </div>
+
+        <div class="block" id="add_question_button">Добавить вопрос</div>
+
+        <div class="block question_link_div">
+
+            <span class="question_name">Вопрос 1</span>
+            <button class="delete_question">Удалить</button>
+
+        </div>
+
+        <div class="block question_link_div">
+
+            <span class="question_name">Вопрос 2</span>
+            <button class="delete_question">Удалить</button>
+
+        </div>
+    </div>
+
+    <div id="students_box" class="box">
+        <table id="student_results_table">
+            <tr id="table_td_names">
+                <th>Ученик</th>
+                <th>Процент выполнения</th>
+                <th>Предполагаемая оценка</th>
+            </tr>
+            <tr class="student_results">
+                <td class="student_name">Фамилия Имя</td>
+                <td class="student_test_percent">Число%</td>
+                <td class="student_mark">Оценка</td>
+            </tr>
+            <tr class="student_results">
+                <td class="student_name">Незнахин Филипп</td>
+                <td class="student_test_percent">90%</td>
+                <td class="student_mark">5</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <button id="back_button">Назад</button>
+        <button id="save_button">Сохранить</button>
+    </footer>
+
 </body>

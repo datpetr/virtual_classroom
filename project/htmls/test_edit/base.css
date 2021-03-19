@@ -1,104 +1,118 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  
-  margin: 0;
-  padding: 0;
-  
-  background-color: #FBFBFB;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    background-color: #FBFBFB;
 }
 
 header {
-  font-weight: 600;
-  color: lightblue;
-  
-  background-color: #000055;
-  
-  position: sticky;
-  top: 0;
-  
-  padding: 10px;
+    font-weight: 600;
+    color: lightblue;
+    background-color: #000055;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px;
 }
 
-outer {
-  font-weight: 600;
-  color: lightblue;
-  
-  background-color: #000055;
-  
-  position: fixed;
-  bottom: 0;
-  
-  padding: 10px;
-  
-  width: 100%;
+footer {
+    font-weight: 600;
+    color: lightblue;
+    background-color: #000055;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
 }
 
 #logo {
-  font-weight: bold;
-  
-  margin-right: 10px;
-  margin-left: 10px;
-  
-  cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 #page_name {
-  text-align: center;
-  color: #EEEEEE;
+    text-align: center;
+    color: #EEEEEE;
 }
 
 #question_name_box {
-  font-weight: 600;
-  text-align: center;
-  
-  margin: 10px;
-  padding: 10px;
-  
-  width: 100%;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
 }
 
 .question_name {
-  font-weight: 600;
-  font-size: 15px;
-  text-align: center;
-  
-  padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
 }
 
 .block {
-  background-color: lightblue;
-  
-  margin-bottom: 5px;
-  padding: 10px;
-  
-  box-sizing: border-box;
-  
-  font-size: 15px;
-  text-align: left;
-  
-  cursor: pointer;
+    background-color: lightblue;
+    margin-bottom: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
 }
 
 button {
-  border-style: none;
-  
-  font-weight: 600;
-  
-  padding: 5px;
-  
-  cursor: pointer;
+    border-style: none;
+    font-weight: 600;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 200ms;
 }
 
+button:hover {
+    background-color: #5050ff;
+    color: lightblue;
+}
 
 .delete_question {
-  float: right;
+    float: right;
 }
 
 #add_question_button {
-  margin-bottom: 10px;
-  font-weight: 600;
-  
-  width: 100%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.box {
+    background-color: #ddeeff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+table {
+    background-color: #adcee6;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 16px;
+}
+
+#table_td_names {
+    background-color: #8fbac8;
+}
+
+tr,
+th,
+td {
+    padding: 5px;
 }
